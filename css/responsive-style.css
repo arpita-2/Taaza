@@ -1,0 +1,27 @@
+/* Media Query 1170px */
+@media (max-width:1170px) {
+
+    /* General CSS */
+    .section-subtitle {
+        max-width: 60%;
+    }
+
+    /* 01 Navbar CSS */
+    .header .navbar {
+        /*cover has been given taki background image na upar niche ho*/
+        background-size: cover;
+        padding: 2rem;
+    }
+    .header .navbar-nav {
+        margin-top: 2rem;
+    }
+
+    .header .navbar-nav .nav-link {
+        padding: 0.2rem 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .header .header_right span {
+        padding: 0.2rem 0.5rem;
+    }
+}
