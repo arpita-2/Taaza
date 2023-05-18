@@ -75,3 +75,14 @@
         max-width: 80%;
     }
 }
+
+
+/* Media Query 590px */
+@media (max-width:590px) {
+
+    /* General CSS */
+    body,
+    html {
+        font-size: 7px;
+    }
+}
